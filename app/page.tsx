@@ -1,11 +1,14 @@
+import Hero from '@/components/Hero'
+import Highlights from '@/components/Highlights'
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <section className='py-24'>
-      <div className='container'>
-        <h1 className='text-3xl font-bold'>Next Ts Starter</h1>
-      </div>
+    <section>
+      <Navbar />
+      <Hero />
+      <Highlights />
     </section>
   )
 }
